@@ -1,0 +1,456 @@
+.container-fluid{
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(../img/slider.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    text-align: center;
+    color: #fff;
+}
+.container-fluid h1{
+    padding-top: 15%;
+    font-family: 'Times New Roman', Times, serif;
+}
+.container-fluid p{
+    padding-bottom: 3%;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+/* .navbar{
+    background-color:  #23232e;
+}   */
+.navbar-nav{
+    margin-left: 10%;
+    padding: 20px;
+  
+    
+}
+.nav-link {
+    font-size: 20px;
+    font-weight: 500;
+    color: #fff;
+   
+}
+.nav-link:hover{
+    color: #52525c;
+}
+.container{
+    padding-top: 80px;
+   
+}
+.text{
+    flex-basis: 48%;
+    padding: 30px 2px;
+}
+.text h2{
+    font-family:'Times New Roman', Times, serif;
+}
+.text p{
+    font-family:'Times New Roman', Times, serif;
+}
+.img img{
+    width: 100%;
+    height: 60vh;
+    border-radius: 10px;
+}
+.hero-btn{
+    border: 2px solid #f44336;
+    background: transparent;
+    color: #f44336;
+}
+.hero-btn:hover{
+ background-color:#000;
+ color: #fff;
+ text-decoration: none;
+}
+
+.container{
+    width: 100%;
+    margin: auto;
+    padding-top: 80px;
+    text-align: center;
+}
+.container h3{
+    font-size: 36px;
+    font-weight: 300;
+    font-family: 'Times New Roman', Times, serif;
+}
+.container p{
+    color: #777;
+    font-family: 'Times New Roman', Times, serif;
+}
+.row{
+    margin-top: 5%;
+   
+}
+.colorcode{
+    flex-basis: 31%;
+    background-color: #fff3f3;
+    border-radius: 10px;
+    box-sizing: border-box;
+    margin-bottom: 3%;
+    padding: 20px 12px;;
+    transition: 0.5s;
+}
+.colorcode:hover{
+    box-shadow: 0 0 20px 0px rgba(4,9,30,0.7);
+}
+
+
+.compus-container{
+ width: 80%;
+ margin: auto;
+ text-align: center;
+ padding-top: 50px;
+}
+.compus-img{
+    flex-basis: 32%;
+    border-radius: 10px;
+    margin-bottom: 3px;
+    overflow: hidden;
+    position: relative;
+}
+.compus-img img{
+    width: 100%;
+    height: 60vh;
+}
+
+.layer{
+    background: transparent;
+    width: 100%;
+    height: 60vh;
+    position: absolute;
+    transition: 0.5s;
+  
+}
+.layer:hover{
+    background: rgba(4,9,30,0.7);
+}
+.layer h5{
+    width: 100%;
+    font-weight: 500;
+    font-size: 26px;
+    color: #fff;
+    position: absolute;
+    transform: translateX(-50%);
+    left: 50%;
+    bottom: 0;
+    opacity: 0;
+    transition: 0.5s;
+}
+.layer:hover h5{
+    bottom: 49%;
+    opacity: 2;
+}
+/* ----facility---- */
+.facility-container{
+    width: 800%;
+    margin: auto;
+    padding-top: 100px;
+    text-align: center;
+}
+.fact{
+    flex-basis: 31%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: left;
+}
+.fact img{
+    width: 100%;
+    border-radius: 10px;
+}
+.fact p{
+    padding: 0;
+} .fact h5{
+    margin-top: 50px;
+    margin-bottom: 15px;
+    text-align: left;
+}
+/* ----facility end---- */
+
+/* -----testmonial--- */
+.testmonial-container{
+    width: 100%;
+    margin: auto;
+    padding-top: 50px;
+    text-align: center;
+}
+.testmon{
+   flex-basis: 44%;
+   border-radius: 10px;
+   margin-bottom: 5%;
+   background: #fff3f3;
+   cursor: pointer;
+   display: flex;
+}
+.testmon img{
+   height: 50px;
+   margin-left: 5px;
+   margin-right: 5px;
+   border-radius: 100px;
+   margin-top: 10px;
+}
+.testmon p{
+   
+   padding-top: 10px;
+}
+.testmon h3{
+   padding-top: 15px;
+   text-align: left;
+}
+.fas.fa-star{
+   color: #f44336;
+   margin-bottom: 5%;
+}
+.far.fa-star{
+   color: #f44336;
+   margin-bottom: 5%;
+}
+/* -----testmonial end--- */
+
+/* ------Enroolling ------ */
+.container-cla{
+    margin: 100px auto;
+    width: 80%;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../img/enrool.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    border-radius: 10px;
+    padding: 100px 0;
+      
+}
+h1{
+    color: #fff;
+    margin-bottom: 40px;
+    padding: 0px;
+    font-family: 'Times New Roman', Times, serif;
+}
+/* ------Enroolling end ------ */
+/* ----footer----- */
+
+.footer-container{
+    width: 100%;
+    text-align: center;
+    padding: 25px;
+}
+.footer-container{
+    margin-top: 20px;
+    margin-bottom: 25px;
+    
+}
+.icon .fab{
+    color: #f44336;
+    margin-top: 20px;
+    font-size: 600;
+    padding: 18px;
+    cursor: pointer;
+}
+.fas.fa-heart{
+    color: #f44336;
+    cursor: pointer;
+}
+/* ----footer----- */
+/* ------- @media----- */
+@media(max-width: 700px){
+    
+    .container-fluid h1{
+        font-size: 20px;
+        padding: 10px;
+
+    }
+    
+    .testmon img{
+        margin-left: 0px;
+        margin-right: 15px;
+    }
+    h1{
+        font-size: 20px;
+    }
+}
+/* ------end media ---- */
+/* -----about us----- */
+.container-us{
+    height: 60vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(../img/us.PNG);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: #fff;
+}
+.container-us h1{
+   padding-top: 100px;
+}
+/* -----about us--end--- */
+/* ---ABOUT-US-CONTENT-- */
+.about-us-content-container{
+    width: 80%;
+    margin: auto;
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+p{
+padding: 15px 0 25px; 
+}
+/* ---ABOUT-US-CONTENT--END */
+/* ---block content----- */
+.container-header{
+    width: 80%;
+    margin: auto;
+    padding: 60px 0;
+}
+.imgblock img{
+    width: 100%;
+}
+.imgblock h2{
+    color: #222;
+  font-family: 'Times New Roman', Times, serif;
+  margin: 30px 0;
+  font-size: 22px;
+  
+}
+.imgblock p{
+    color: #999;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+.column{
+    flex-basis: 32%;
+}
+.column h3{
+    background: #f44336;
+    color: #fff;
+    padding: 7px 0;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+@media(max-width: 700px){
+    .column h3{
+        margin-top: 15px;
+    }
+}
+.column div{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    color: #555;
+    padding: 8px;
+    box-sizing: border-box;
+}
+.comment-box{
+    border: 2px solid #ccc;
+}
+.comment-box h3{
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 22px;
+}
+.comment-form input, .comment-form textarea{
+   background-color: #ccc;
+    padding: 10px;
+    margin: 15px 0;
+}
+.btn:not(:disabled):not(.disabled) {
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+/* ----CONTECT PAGE-- */
+.container-contect{
+    height: 70vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(../img/map.jpg);
+     background-size: cover;
+     background-position: center;
+     text-align: center;
+     color: #fff;
+     padding-top: 15%;    
+   
+}
+.container-contect p{
+   margin: 50px 0;
+   padding: 20px 0;
+   font-family: 'Times New Roman', Times, serif;
+   left: 5%;
+   right: 5%;
+}
+@media(max-width:700px){
+    h4{
+        margin-top: 60%;
+    }
+    .container-contect p{
+        font-size: 10px;
+    }
+}
+hr{
+
+    width: 69px;
+    margin-left: 1%;
+    background-color: yellow;
+}
+.location{
+    width: 80%;
+    height: 60vh;
+    margin: auto;
+    padding: 80px 0;
+
+}
+.location iframe{
+    width: 100%;
+    height: 60vh;
+}
+.content-u{
+    width: 80%;
+    margin: auto;
+}
+.inner-content{
+ flex-basis: 48%;
+ margin-bottom: 30px;
+}
+.inner-content div{
+    display: flex;
+    align-items:  center;
+    margin-bottom: 30px;
+    margin-top: 7%;
+    margin-left: 5%;
+}
+@media(max-width:700px){
+    .inner-content div{
+        padding-top: 30%;
+        padding-right: 15%;
+    }
+     h5{
+        font-size: 7px;
+    }
+}
+.inner-content div .fas{
+    font-size: 28px;
+    color: #f44336;
+    margin: 10px;
+    margin-right: 30px ;
+}
+.inner-content div .far{
+    font-size: 28px;
+    color: #f44336;
+    margin: 10px;
+    margin-right: 30px ;
+}
+.inner-content div p{
+    padding: 0;
+    color: #555;
+}
+.inner-content div h5{
+    font-size: 16px;
+    color: #555;
+    font-weight: 400;
+}
+.content-outline input, .content-outline textarea{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 17px;
+    outline: none;
+    border: 2px solid #ccc;
+    margin-top: 7%;
+    box-sizing: border-box;
+    
+} */
